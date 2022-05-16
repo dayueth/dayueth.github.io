@@ -2,9 +2,12 @@
 
  目前的物理活动范围主要在广东深圳，分身日常出没于[博客](https://datazhy.com)、[Github](https://github.com/datazhy)。
 
-  #### 掌握IT技能 
- 
+掌握IT技能
+
  - Python
  - R
  - Sql
  - PowerBI
+
+
+                                                                                               更新于5-16
