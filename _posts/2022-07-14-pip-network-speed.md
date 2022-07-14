@@ -1,16 +1,14 @@
 ---
 layout: post
-title: "[Python] pip network speed"
-subtitle: ' Python pip 安装第三方库网速慢的解决方案'
+title: "pip 安装第三方库网速慢的解决方案"
+subtitle: ' Pip installs a third-party library solution for slow network speed'
 author: "Zhy"
 header-style: text
 tags:
   - pip
   - Python
-  - 软件基础
+  - 编程基础
 ---
-
-# Python Pip 安装第三方库网速慢的解决方案
 
 ## **前言**
 
