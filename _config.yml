@@ -3,8 +3,8 @@ title: Zhy Blog
 SEOTitle: 张航宇的博客 | Zhy Blog
 header-img: img/home-bg.jpg
 email: datazhy@gmail.com
-description: "关于编程语言、数据分析 | 张航宇，Python & Data Analysis Lover，Software Engineer，| 这里是 @Zhy张航宇 的个人博客，与你一起发现更大的世界。"
-keyword: "张航宇, Zhy张航宇, Zhy, 统计, datazhy, @datazhy, 张航宇的博客, Zhy Blog, 博客, 个人网站, 机器学习, Python, Sql, 人工智能, 统计分析,"
+description: "关于编程语言、数据分析 | 张航宇，Python & Data Analysis Lover，Software Engineer，Data mining,| 这里是 @Zhy张航宇 的个人博客，与你一起发现更大的世界。"
+keyword: "张航宇, Zhy张航宇, Zhy, 统计, datazhy, @datazhy, 张航宇的博客, Zhy Blog, 博客, 个人网站, 机器学习, Python, 数据分析。"
 url: "https://datazhy.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
