@@ -15,6 +15,7 @@ tags:
   - 聚类模型
 ---
 
+
  ## **前言**
  
 这是一个跨国数据集，其中包含在 2010 年 1 月 12 日到 2011 年 9 月 12 日之间发生的英国某电商在线零售的交易数据。
@@ -26,14 +27,17 @@ https://archive.ics.uci.edu/ml/datasets/online+retail
 
 ## **数据说明**
 该数据集共540545行，8列，具体字段信息为：  
-InvoiceNo：发票号码，一个唯一分配给每笔交易的 6 位整数。如果此代码以字母“c”开头，则表示取消  
-StockCode：股票代码  
-Description：描述，产品（项目）名称  
-Quantity: 数量  
-InvoiceDate：发票日期  
-UnitPrice：单价，以英镑为单位的每单位产品价格  
-CustomerID：客户ID  
-Country：国家  
+
+| Syntax | Description |
+| ------ | ----------- |
+| InvoiceNo | 发票号码，一个唯一分配给每笔交易的 6 位整数。如果此代码以字母“c”开头，则表示取消 |
+| StockCode | 股票代码 |
+| Description | 描述，产品（项目）名称 |
+| Quantity | 数量 |
+| InvoiceDate | 发票日期 |
+| UnitPrice | 单价，以英镑为单位的每单位产品价格 |
+| CustomerID | 客户ID |
+| Country | 国家 |
 
 ## **问题描述**
 * 数据的预处理，数据清洗，对数据集探索性分析  
@@ -54,7 +58,7 @@ warnings.filterwarnings('ignore')
 ## **数据预处理**
 ```python
 ## 数据读取
-df = pd.read_excel('D:/VS Code/Python/关于电商零售客户细分数据的探索/Online Retail.xlsx')
+df = pd.read_excel('D:/**/Online Retail.xlsx')
 
 ## 缺失值处理
 df.dropna(subset=['CustomerID'],inplace=True)
@@ -74,8 +78,6 @@ df['Amount'] = df['Quantity']*df['UnitPrice']
 ```python
 df.head(8)
 ```
-
-
 ##  **数据探索性分析**
 
 ```python
