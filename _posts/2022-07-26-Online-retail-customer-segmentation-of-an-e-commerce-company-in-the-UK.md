@@ -4,7 +4,6 @@ title: "英国某电商在线零售客户细分"
 subtitle: ' Online retail customer segmentation of an e-commerce company in the UK'
 author: "Zhy"
 header-img: "img/post-bg-2015.jpg"
-header-style: text
 tags:
   - 电商零售
   - 数据分析
