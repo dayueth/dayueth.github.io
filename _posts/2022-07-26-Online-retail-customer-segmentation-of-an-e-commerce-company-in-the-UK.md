@@ -3,7 +3,7 @@ layout: post
 title: "英国某电商在线零售客户细分"
 subtitle: ' Online retail customer segmentation of an e-commerce company in the UK'
 author: "Zhy"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/in-post/post-Python/Online Retail 01.jpg"
 tags:
   - 电商零售
   - 数据分析
@@ -21,8 +21,8 @@ tags:
 数据量很庞大，在分析思路上可以使用机器学习K-Means 等算法，根据客户在市场上的购买行为来细分客户。
 
 ## **数据来源**
-https://www.kaggle.com/yasserh/customer-segmentation-dataset  
-https://archive.ics.uci.edu/ml/datasets/online+retail
+<https://www.kaggle.com/yasserh/customer-segmentation-dataset>   
+<https://archive.ics.uci.edu/ml/datasets/online+retail>
 
 ## **数据说明**
 该数据集共540545行，8列，具体字段信息为：  
@@ -75,8 +75,10 @@ df['Amount'] = df['Quantity']*df['UnitPrice']
 
 ### 预处理后的数据预览
 ```python
-df.head(8)
+df.head(20)
 ```
+![数据预览](/img/in-post/post-Python/Online%20Retail%2002.png)
+
 ##  **数据探索性分析**
 
 ```python
@@ -109,6 +111,8 @@ pie=(
 
 ## 代码较长，为节省篇幅部分已隐藏
 ```
+![订单交易状态](/img/in-post/post-Python/Online%20Retail%2003.png)  
+![订单交易状态1](/img/in-post/post-Python/Online%20Retail%2004.png)
 
 ## **结论**
 * **英国为订单数量最多的国家**  
@@ -189,6 +193,9 @@ def mapping(x):
 
 ## 代码较长，为节省篇幅部分已隐藏
 ```
+![](/img/in-post/post-Python/Online%20Retail%2005.png)
+
+![](/img/in-post/post-Python/Online%20Retail%2006.png)
 
 ### **结论**
 
@@ -223,9 +230,15 @@ plt.xlabel('K')
 plt.ylabel('Average distortion degree')
 plt.title('Use the Elbow Method to select the best K value')
 plt.show()
-当K=4时，平均畸变程度变化趋于平缓，此时改变K值对聚类效果影响不大，故确定聚类簇数为 4
+```
+
+![](/img/in-post/post-Python/Online%20Retail%2008.png)  
+
+### **结论**
+当K=4时，平均畸变程度变化趋于平缓，此时改变K值对聚类效果影响不大，故确定聚类簇数为4。 
 
 ### **聚类结果可视化**
+```python
 Kmeans = KMeans(n_clusters=4,max_iter=50)
 Kmeans.fit(data_scaled)
 cluster_labels_k = Kmeans.labels_
@@ -235,6 +248,7 @@ res = pd.concat((df_rfm, cluster_labels), axis=1)
 
 ## 代码较长，为节省篇幅部分已隐藏
 ```
+![](/img/in-post/post-Python/Online%20Retail%2007.png)
 
 ### **结论**
 * **第1类客户**  

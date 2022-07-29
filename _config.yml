@@ -3,8 +3,8 @@ title: Zhy Blog
 SEOTitle: 张航宇的博客 | Zhy Blog
 header-img: img/home-bg.jpg
 email: datazhy@gmail.com
-description: "关于编程语言、数据分析 | 张航宇，Python & Data Analysis Lover，Software Engineer，Data mining,| 这里是 @Zhy张航宇 的个人博客，与你一起发现更大的世界。"
-keyword: "张航宇, Zhy Blog, 张航宇的博客, datazhy, @datazhy, 博客, 个人网站, 数据分析, zhy, 张航宇。"
+description: "关于编程语言、数据挖掘、数据可视化、机器学习、算法 | 张航宇，Python & Data Analyst & Big Data Lover & Data mining,| 这里是 @Zhy张航宇 的个人博客，与你一起发现更大的世界。"
+keyword: "张航宇, Zhy Blog, 张航宇的博客, datazhy, @datazhy, 数据分析, 数据可视化, 大数据, zhy, 张航宇, 博客, 个人网站。"
 url: "https://datazhy.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -13,8 +13,8 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     datazhy
-zhihu_username:     datazhy
+# weibo_username:     datazhy
+# zhihu_username:     datazhy
 github_username:    datazhy
 twitter_username:   datazhy
 #facebook_username:  huxpro
@@ -78,7 +78,7 @@ ga_domain: datazhy.com
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "张航宇，数分娱乐圈 NPC，编程语言/数据分析初心者 <br> An data Analyst & Programming Language/PL hacker."
+sidebar-about-description: "张航宇，数据分析师 <br> An data Analyst & Programming Language/PL hacker."
 sidebar-avatar: https://github.com/datazhy.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
