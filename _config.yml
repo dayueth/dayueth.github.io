@@ -1,11 +1,11 @@
 # Site settings
-title: Zhy Blog
-SEOTitle: 张航宇的博客 | Zhy Blog
+title: Dayu Eth
+SEOTitle: 大鱼以太坊 | Dayu Eth
 header-img: img/home-bg.jpg
-email: datazhy@gmail.com
-description: "关于编程语言、数据挖掘、数据可视化、机器学习、算法 | 张航宇，Python & Data Analyst & Big Data Lover & Data mining,| 这里是 @Zhy张航宇 的个人博客，与你一起发现更大的世界。"
-keyword: "张航宇, Zhy Blog, 张航宇的博客, datazhy, @datazhy, 数据分析, 数据可视化, 大数据, zhy, 张航宇, 博客, 个人网站。"
-url: "https://datazhy.com"              # your host, for absolute URL
+email: suijimanbu01@gmail.com
+description: "关于编程语言、数据挖掘、数据可视化、机器学习、算法 | 大鱼，Python & Data Analyst & Big Data Lover & Data mining,| 这里是 @Dayueth 大鱼的个人博客，与你一起发现更大的世界。"
+keyword: "大鱼以太坊, Dayu Eth, 大鱼, Dayueth, @大鱼以太坊, 数据分析, 数据可视化, 大数据 , 博客, 个人网站。"
+url: "https://dayueth.xyz"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,12 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-# weibo_username:     datazhy
-# zhihu_username:     datazhy
-github_username:    datazhy
-twitter_username:   datazhy
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+# weibo_username:     
+# zhihu_username:     
+# github_username:    
+twitter_username:   dayueth
 
 
 
@@ -59,7 +57,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: datazhy
+disqus_username: dayueth
 
 # Netease settings
 netease_comment: false
@@ -71,15 +69,15 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-228787268-1'            # Format: UA-xxxxxx-xx
-ga_domain: datazhy.com
+# ga_track_id:            # Format: UA-xxxxxx-xx
+# ga_domain: 
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "张航宇，数据分析师 <br> An data Analyst & Programming Language/PL hacker."
-sidebar-avatar: https://github.com/datazhy.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Dayu，Web3 <br> An data Analyst & Programming Language/PL hacker."
+sidebar-avatar: https://github.com/dayueth.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -97,37 +95,3 @@ service-worker: true
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
-
-
-
-# Friends
-#friends: [
-   # {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-    #    title: "乱序（Midare）",
-    #    href: "http://mida.re/"
-    #},{
-    #    title: "Sherry Woo",
-    #    href: "https://sherrywoo.me/"
-    #},{
-    #    title: "Kun Qian",
-    #    href: "http://kunq.me"
-    #},{
-    #    title: "Ebn Zhang",
-    #    href: "http://ebnbin.com/"
-    #},{
-    #    title: "SmdCn",
-    #    href: "http://blog.smdcn.net"
-    #},{
-    #    title: "JiyinYiyong",
-    #    href: "http://tiye.me/"
-    #},{
-    #    title: "DHong Say",
-    #    href: "http://dhong.co"
-    #},{
-    #    title: "尹峰以为",
-    #    href: "http://ingf.github.io/"
-    #}
-#]
